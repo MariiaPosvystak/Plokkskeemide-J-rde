@@ -55,8 +55,6 @@ for päev in range (1, 8):
 M=float(input("Sisesta konda pikkus:"))
 while True:
     k=float(input("Sisesta kuski pikkus:"))
-    if k<M:
-        print("")
     if k>M:
         print("Materjali ei piisa")
         break
